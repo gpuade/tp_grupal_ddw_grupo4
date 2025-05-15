@@ -1,0 +1,92 @@
+body {
+  font-family: Roboto;
+  font-size: 1.2em;
+  color: #616161;
+  background-color: #F5F5F5;
+  height: 100%;
+}
+
+nav {
+  background-color: #FFB74D;
+}
+
+.navbar-brand {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+.navbar-brand:hover {
+  color: #1565C0;
+  text-decoration: underline;
+}
+
+.navbar-toggler {
+  font-size: 1em;
+  background-color: #f1f1f1;
+  color: #f1f1f1;
+}
+
+.titulosh1 {
+  color: #616161;
+  font-weight: bold;
+  text-align: center;
+}
+
+.titulosh4 {
+  color: #616161;
+  font-weight: bold;
+}
+
+img{
+  max-width: 8em;
+  max-height: 8em;
+}
+
+.card-body{
+  background-color: #FFFFFF;
+  color:#212121;
+}
+
+.btn.btn_card{
+  background-color: #FFA726;
+  color:#FFFFFF;
+}
+
+.border.border-dark{
+  border-radius: 0.5em;
+  border-width: 20px;   
+}
+
+.rounded.img-thumbnail{
+  background-color: #616161;
+}
+
+.color-card {
+  width: 11.25rem;         
+  height: 7.5rem;          
+  border-radius: 0.75rem;  
+  color: #212121;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0.75rem;         
+  box-shadow: 0 0.125rem 0.375rem rgba(0,0,0,0.1); 
+  font-family: 'Poppins', sans-serif;
+  transition: transform 0.3s ease;
+}
+
+.color-card:hover {
+  transform: scale(1.03);
+}
+
+.color-card .label {
+  font-size: 0.875rem;     
+  font-weight: 600;
+}
+
+.color-card .hex {
+  font-size: 0.75rem;      
+  opacity: 0.8;
+}
